@@ -47,7 +47,7 @@ def myfunc_canny(img_ori):
     # cv2一次只能处理一张图片，预留内存给批处理
 
     '''
-    img = img + 128.0
+    img = img + 128.0.
     # (12, 3, 481, 641)
     # 可能是8位图像，从[-128, 127]平移到[0, 255]
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
